@@ -1,11 +1,11 @@
 # MuJoCo Robotics Learning Journey
 
-This repository documents my progression in robotic simulation using **MuJoCo** and **Python**. It covers fundamental concepts of rigid body dynamics, control theory, and inverse kinematics, culminating in a simulation of a **UR5e industrial manipulator**.
+This repository documents my progression in robotic simulation using **MuJoCo** and **Python**. It covers fundamental concepts of rigid body dynamics, control theory, inverse kinematics, and **Reinforcement Learning**, culminating in interactions with industrial manipulators.
 
 ## 🛠️ Tech Stack
 * **Physics Engine:** MuJoCo
 * **Language:** Python 3
-* **Libraries:** `mujoco`, `numpy`, `gymnasium`, `stable-baselines3`
+* **Libraries:** `mujoco`, `numpy`, `gymnasium`, `stable-baselines3`, `imageio`
 * **Robots:** Universal Robots UR5e (via MuJoCo Menagerie)
 
 ## 📂 Project Structure
@@ -19,6 +19,8 @@ This repository documents my progression in robotic simulation using **MuJoCo** 
 | `lesson5_friction.py` | Contact physics, friction parameters, and stability. |
 | `lesson6_ur5.py` | Loading the **UR5e** mesh model from DeepMind's Menagerie. |
 | `lesson7_ik.py` | **Inverse Kinematics** implementation using Mocap bodies to make the arm track a target and interact with objects. |
+| `lesson8_rl.py` | **Reinforcement Learning** (Hello World): Training a PPO agent to balance an Inverted Pendulum using Stable-Baselines3. |
+| `lesson9_reacher.py` | **Robotic Control RL**: Training a 2-joint robotic arm to reach random targets (Reacher-v4) with PPO. |
 
 ## 🚀 How to Run
 1. Clone the repository:
