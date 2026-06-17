@@ -2,7 +2,7 @@ import mujoco
 import mujoco.viewer
 import time
 import os
-import math  # <--- ADDED THIS IMPORT
+import math  
 
 # 1. Get the directory where THIS python file is located
 current_dir = os.path.dirname(os.path.abspath(__file__))
