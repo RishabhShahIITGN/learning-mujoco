@@ -49,6 +49,6 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
              # qpos is in Radians. 
              # 0 = Vertical Down
              # 1.57 = Horizontal (90 degrees)
-             print(f"Time: {data.time:.2f}s | Angle: {data.qpos[0]:.2f} rad | Velocity: {data.qvel[0]:.2f} rad/s")
+             print(f"Time: {data.time:.2f}s | Angle: {data.qpos[0]:.2f} rad | Velocity: {data.qavel[0]:.2f} rad/s")
 
         time.sleep(0.005)

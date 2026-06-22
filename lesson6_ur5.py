@@ -25,7 +25,6 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
     print("Joint names:")
 
     for i in range(model.nu): # model.nu = number of actuators/controls
-        # This is a bit advanced way to get names, just trust me for now
         name = mujoco.mj_id2name(model, mujoco.mjtObj.mjOBJ_ACTUATOR, i)
         print(f"Index {i}: {name}")
 
@@ -34,7 +33,7 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
         # Make the robot wave
         now = time.time() - start_time
         
-        # --- FIXED LINES BELOW ---
+        # Just for tinkering the robot
         data.ctrl[0] = 0.5 * math.sin(now)  # Rotate base
         data.ctrl[4] = 1.0 * math.cos(now)  # Wrist move
 
