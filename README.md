@@ -13,7 +13,7 @@ This repository documents my progression in robotic simulation using **MuJoCo** 
 ### Basics & Physics
 | File | Description |
 | :--- | :--- |
-| `lesson1_basics.py` | Introduction to XML (MJCF) bodies and geoms. |
+| `lesson1_basics.py` | The Basic Simulation Loop Introduces the core MuJoCo physics loop by simulating a falling sphere. It demonstrates how to compile an XML model, advance physics time (mj_step), and update the 3D graphics window (viewer.sync). |
 | `lesson2_pendulum.py` | Simulating a double pendulum dynamics. |
 | `lesson3_motor.py` | Actuation and joint control torque. |
 | `lesson4_sensors.py` | Reading sensor data (qpos, qvel) and equilibrium states. |
