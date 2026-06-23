@@ -14,7 +14,7 @@ This repository documents my progression in robotic simulation using **MuJoCo** 
 | File | Description |
 | :--- | :--- |
 | `lesson1_basics.py` | The Basic Simulation Loop Introduces the core MuJoCo physics loop by simulating a falling sphere. It demonstrates how to compile an XML model, advance physics time (mj_step), and update the 3D graphics window (viewer.sync). |
-| `lesson2_pendulum.py` | Simulating a double pendulum dynamics. |
+| `lesson2_pendulum.py` | A simulation of double pendulum dynamics demonstrating hinge joints in MuJoCo. It applies an initial velocity (qvel) to the top joint to showcase complex, chaotic physical motion. |
 | `lesson3_motor.py` | Actuation and joint control torque. |
 | `lesson4_sensors.py` | Reading sensor data (qpos, qvel) and equilibrium states. |
 | `lesson5_friction.py` | Contact physics, friction parameters, and stability. |
