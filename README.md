@@ -22,7 +22,7 @@ This repository documents my progression in robotic simulation using **MuJoCo** 
 ### Robotics Control
 | File | Description |
 | :--- | :--- |
-| `lesson6_ur5.py` | Loading the **UR5e** mesh model from DeepMind's Menagerie. |
+| `lesson6_ur5.py` | Loads the UR5e industrial robot from an external XML file to programmatically explore its joints and attachment sites. Applies basic mathematical signals to tinker with specific joints and understand its motion. |
 | `lesson7_ik.py` | **Inverse Kinematics** implementation using Mocap bodies to make the arm track a target. |
 
 ### Reinforcement Learning (AI)
