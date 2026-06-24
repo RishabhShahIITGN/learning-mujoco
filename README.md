@@ -17,7 +17,7 @@ This repository documents my progression in robotic simulation using **MuJoCo** 
 | `lesson2_pendulum.py` | A simulation of double pendulum dynamics demonstrating hinge joints in MuJoCo. It applies an initial velocity (qvel) to the top joint to showcase complex, chaotic physical motion. |
 | `lesson3_motor.py` | Motor Control Introduces actuators by attaching a motor to the pendulum's shoulder joint. It demonstrates sending continuous torque commands using a mathematical sine wave to actively drive the robot's motion. |
 | `lesson4_sensors.py` | Applies a constant torque to a double pendulum, demonstrating how the unmotorized lower arm moves purely via physics and gravity. It also shows how to extract real-time angles (qpos) and velocities (qvel) directly from MuJoCo's internal engine state without building simulated hardware sensors. |
-| `lesson5_friction.py` | Contact physics, friction parameters, and stability. |
+| `lesson5_friction.py` | Demonstrates unconstrained 6-DOF (Degree of Freedom) movement using a free joint. Applies an initial linear velocity to a box, showcasing how MuJoCo's ground-plane sliding friction naturally decelerates the object over time. |
 
 ### Robotics Control
 | File | Description |
